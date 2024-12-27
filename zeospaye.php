@@ -50,9 +50,9 @@ class ZeosPayE extends PaymentModule
         $this->displayName = $this->l('ZeosPayE');
         $this->description = $this->l('Pay with enzona!!!!!!!');
 
-        $this->limited_countries = array('FR');
+        $this->limited_countries = array('CU');
 
-        $this->limited_currencies = array('EUR');
+        $this->limited_currencies = array('CUP');
 
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => '8.0');
     }
